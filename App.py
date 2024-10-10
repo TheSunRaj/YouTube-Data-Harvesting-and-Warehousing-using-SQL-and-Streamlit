@@ -16,7 +16,7 @@ from sqlalchemy import create_engine
 # for api key = (google cloud console ==> API and services ==> youtube api v3)
 api_service = "youtube"
 api_version = "v3"
-api_key = "AIzaSyDS2cigRYmUNhDkfQEQJ4501TqywZBbtHg"
+api_key = "(****HIDE for security reason******)"
 youtube = googleapiclient.discovery.build(api_service, api_version, developerKey=api_key)
 
 #mycurser and engine created to intreact with MYSQL Database
