@@ -127,6 +127,6 @@ Watch the demo here: [YouTube Demo](https://youtu.be/qsHF35eShKk)
 ---
 
 ## Contact Information
-- **LinkedIn**: [www.linkedin.com/in/gokul-m-j17/](www.linkedin.com/in/gokul-m-j17/)
-- **Email**: gokulgokul6847@gmail.com
+- **LinkedIn**: [www.linkedin.com/in/sun-raj-2930301a2](www.linkedin.com/in/sun-raj-2930301a2)
+- **Email**: sunraj2525@gmail.com
 
