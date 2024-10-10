@@ -51,3 +51,82 @@ Utilize the YouTube API to collect:
   ```python
   import googleapiclient.discovery
   from googleapiclient.errors import HttpError
+
+  # YouTube Data Harvesting and Warehousing using SQL and Streamlit
+
+## Plotly
+
+## 📚 Packages and Libraries
+- **google-api-python-client**
+  ```python
+  import googleapiclient.discovery
+  from googleapiclient.errors import HttpError
+  ```
+- **mysql-connector-python**
+  ```python
+  import mysql.connector
+  ```
+- **SQLAlchemy**
+  ```python
+  from sqlalchemy import create_engine
+  ```
+- **Pandas**
+  ```python
+  import pandas as pd
+  ```
+- **Streamlit**
+  ```python
+  import streamlit as st
+  ```
+- **streamlit_option_menu**
+  ```python
+  from streamlit_option_menu import option_menu
+  ```
+- **Plotly**
+  ```python
+  import plotly.express as px
+  ```
+- **Pillow**
+  ```python
+  from PIL import Image
+  ```
+
+---
+
+## 📘 Features
+
+### 📚 Data Collection
+The data collection process involved retrieving various data points from YouTube using the YouTube Data API, including:
+- Channel information
+- Video details
+- Playlists
+- Comments
+
+### 💾 Database Storage
+The collected YouTube data was transformed into pandas DataFrames. Before that, a new database and tables were created using the **XAMPP control panel**. With the help of **SQLAlchemy**, the data was inserted into the respective tables. The database could be accessed and managed in the MySQL environment provided by XAMPP.
+
+### 📋 Data Analysis
+Using YouTube channel data stored in the MySQL database, performed MySQL queries to answer 10 questions about the YouTube channels. When selecting a question, the results will be displayed in the Streamlit application in the form of tables.
+
+### 📊 Data Visualization
+Using YouTube channel data stored in the MySQL database, the data was presented in visually appealing charts and graphs using **Plotly**. When selecting a query, the visualization is displayed in the Streamlit application.
+
+---
+
+## 📘 Usage Instructions
+1. Enter a YouTube channel ID or name in the input field in the Data Collection option from the sidebar menu.
+2. Click the **"View Details"** button to fetch and display channel information.
+3. Click the **"Upload to MySQL"** button to store channel data in the SQL database.
+4. Select Analysis and Visualization options from the sidebar menu to analyze and visualize data.
+
+---
+
+## Demo Video
+Watch the demo here: [YouTube Demo](https://youtu.be/qsHF35eShKk)
+
+---
+
+## Contact Information
+- **LinkedIn**: [www.linkedin.com/in/gokul-m-j17/](www.linkedin.com/in/gokul-m-j17/)
+- **Email**: gokulgokul6847@gmail.com
+
